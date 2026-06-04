@@ -1,0 +1,26 @@
+# Quarto / R — rendered outputs
+*_files/
+*.html
+
+# R session artefacts
+.Rhistory
+.RData
+.Rproj.user/
+
+# Generated plots
+PCA.pdf
+
+# Data — raw & large source files (download links in README)
+data/raw/
+data/sub_inpi_resto/
+data/StockUniteLegale_utf8.csv
+data/processed/NAF_siren.parquet
+
+# Arrow / Parquet temp files
+*.arrow
+*.parquet.lock
+
+# OS
+.DS_Store
+Thumbs.db
+
